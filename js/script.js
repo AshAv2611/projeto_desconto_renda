@@ -1,15 +1,19 @@
-// PEGANDO ELEMENTOS DO DOM
-const formDdaos = document.querySelector('#formulario')
+//DECLARAR UM ARRAY DE OBJETOS PESSOA 
+const pessoas = []
 
-numeros[]
-//CAPTURANDO EVENTO
+// PEGANDO ELEMENTOS DO DOM
+const formPessoa = document.querySelector('#formulario')
+//const formPessoa = document.querySelector('#div-form')
+const divPessoa = document.querySelector('#div-lista-pessoas')
+
+//CAPTURANDO EVENTO DO SUBMIT DO FORMULÁRIO
 formDados.addEventListener('submit', (evt)=>{
     evt.preventDefault()
 
-    const form_dados = newFormData(formDdaos)
+    const form_pessoa = newFormData(formPessoa)
 
-    let nome = (form_dados.get('nome'))
-    let idade = (form_dados.get('idade'))
-    let renda = (form_dados.get('renda'))
+    let nome = (form_pessoa.get('nome'))
+    let idade = (form_pessoa.get('idade'))
+    let renda = (form_pessoa.get('renda'))
 
 })
