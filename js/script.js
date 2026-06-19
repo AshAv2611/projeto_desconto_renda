@@ -7,13 +7,17 @@ const formPessoa = document.querySelector('#formulario')
 const divPessoa = document.querySelector('#div-lista-pessoas')
 
 //CAPTURANDO EVENTO DO SUBMIT DO FORMULÁRIO
-formDados.addEventListener('submit', (evt)=>{
+formDados.addEventListener('submit', (evt) => {
     evt.preventDefault()
 
     const form_pessoa = newFormData(formPessoa)
 
-    let nome = (form_pessoa.get('nome'))
-    let idade = (form_pessoa.get('idade'))
-    let renda = (form_pessoa.get('renda'))
 
+    const pessoas = {
+        nome = (form_pessoa.get('nome')),
+        idade = (form_pessoa.get('idade')),
+        renda = (form_pessoa.get('renda'))
+    }
+
+    
 })

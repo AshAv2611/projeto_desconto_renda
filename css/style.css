@@ -2,6 +2,9 @@
     width: 500px;
     min-height: 600px;
     margin: 20px auto;
+    border: solid 1px pink; 
+    padding: 25px;
+    border-radius: 8px;
 }
 
 h3{
@@ -16,16 +19,16 @@ h3{
 }
 
 form{
-    background-color: deeppink;
-    padding: 5px;
+    background-color: pink;
+    padding: 25px;
     border-radius: 8px;
-    color: antiquewhite;
+    color: #ffffff;
 }
 
 label, input{
     display: block;
     margin: 10px 0px;
-    width: 100px;
+    width: 370px;
     height: 30px;
     font-size: 1.2em;
     padding: 0px 15px;
@@ -34,18 +37,12 @@ label, input{
 button{
     margin: 20px 0px;
     width: 200px;
-    height: 30px;
+    height: 35px;
     cursor: pointer;
 }
 
 #div-lista-pessoas{
-    background-color: plum;
+    background-color: rgb(137, 196, 137);
     border-radius: 5px;
     padding: 25px;
 }
-
-
-
-
-
-
