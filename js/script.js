@@ -41,7 +41,6 @@ const listPessoa = () => {
     //PERCORRENDO O ARRAY COM A ESTRUTURA DE REPETICA foreech
     pessoa.forEach((elem, i)=>{
         divPessoa.innerHTML += `<div class= 'item-pessoa'>${i + 1} - ${elem.nome} ${elem.idade} R$ 
-        ${parseFloat(elem.renda).toFixed(2).replace('.', ',')} </div>` 
+        ${parseFloat(elem.renda).toFixed(2).replace('.', ',')} ${calculoDesconto(elem)}</div>` 
     })
 }
-
