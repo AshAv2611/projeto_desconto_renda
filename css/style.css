@@ -42,7 +42,14 @@ button{
 }
 
 #div-lista-pessoas{
-    background-color: rgb(137, 196, 137);
+    background-color: rgb(132, 173, 206);
     border-radius: 5px;
     padding: 25px;
+}
+
+.item-pessoa{
+    margin: 20px 0px;
+    padding: 5px;
+    background-color: plum;
+
 }
